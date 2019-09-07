@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body,div,p,a,h1{
+	margin:0 auto;
+	padding:0;
+	font-size:100%;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+img{
+	width:100%;
+	display:block;
+}
+
+#wrapper{
+	max-width:720px;
+	margin:0 auto;
+}
+
+body{
+	background-color:#fffffF;
+}
+
+a:hover{
+	opacity:0.6;
+}
+
+
+
+/*#cart_01 
+----------------------------------*/
+
+.cart_01{
+	position:relative;
+}
+
+.cart_01 .btn_01{
+	position:absolute;
+	width:99%;
+	right:0.5%;
+	bottom:0;
+}
+
+
+/*#cart_02 
+----------------------------------*/
+
+.cart_02{
+	position:relative;
+}
+
+.cart_02 .btn_02{
+	position:absolute;
+	width:66.25%;
+	right:7%;
+	bottom:5%;
+}
+
+
+

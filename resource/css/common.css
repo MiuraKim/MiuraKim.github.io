@@ -1,0 +1,305 @@
+
+
+
+/* body */
+body
+{
+    font-size: 62.5%;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #555555;
+}
+#wrapper
+{
+	font-size: 1.2em;
+	margin: 0px auto;
+	width: 100%;
+	position: relative;
+	border-top: 5px solid #57c2d4;
+	
+}
+a {
+	text-decoration: none;
+	color: #111;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* header */
+
+#header
+{
+	width: 100%;
+	margin-bottom: 2%;
+
+}
+.head_cont
+{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+#header h1
+{
+	float: left;
+}
+
+.head_cont .lnavi
+{
+	float: right;
+	width: auto;
+}
+.head_cont .lnavi li 
+{
+	float: left;
+	margin-left: 15px;
+	line-height: 32px;
+}
+.head_cont .lnavi li.cart {
+	border: 1px solid #ddd;
+	padding: 7px 10px;
+	line-height: 12px;
+}
+.head_cont .lnavi li.cart span {
+	margin-right: 6px;
+}
+.head_cont .lnavi li.cart i {
+	color: #555;
+	margin-right: 6px;
+	vertical-align: baseline;
+}
+
+#nav
+{
+	width: 100%;
+	background-color: #555;
+}
+#nav #gNavi
+{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#nav #gNavi ul {
+	float: left;
+	width: 66.66%;
+}
+#nav #gNavi li {
+	float: left;
+	height: 50px;
+	text-align: center;
+}
+#nav #gNavi li a {
+	color: #fff;
+	padding: 0 10px;
+	display: block;
+	height: 100%;
+	line-height: 50px;
+	font-size: 1.166em;
+}
+#nav #gNavi li a:hover {
+	text-decoration: none;
+	background-color: #ea9e1a;
+}
+#lcSearchHeader {
+	width: 33.33%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+}
+article {
+	position: relative;
+	margin-bottom: 3%;
+}
+
+
+/* mainVisual */
+#mainVisual
+{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto 2%;
+}
+
+/* contents */
+#contents
+{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.moreLink,
+#main > section > div,
+#main > form > section > div,
+#main h2 {
+	margin-left: 0.98%;
+	margin-right: 0.98%;
+}
+
+#main
+{
+	width: 100%;
+}
+#main > section,
+#main > form > section {
+	margin-bottom: 3%;
+}
+
+#main h2
+{
+	margin-bottom: 2%;
+	font-size: 1.333em;
+	background-color: #57c2d4;
+	padding: 1%;
+	color: #fff;
+}
+.itemList {
+	overflow: hidden;
+	clear: both;
+}
+.itemList li {
+	width: 25%;
+	float: left;
+	margin-bottom: 2%;
+	padding: 0 0.98%;
+}
+.itemList li a {
+	border: 1px solid #ddd;
+	display: block;
+	padding: 4%;
+}
+.itemList li:hover a {
+	background-color: #f3f3f3;
+	text-decoration: none;
+}
+.itemList li figure {
+	max-height: 130px;
+	overflow: hidden;
+	line-height: 0;
+	margin-bottom: 3%;
+	width: 100%;
+	height: 0;
+	padding-bottom: 61%;
+	position: relative;
+}
+.itemList li figure img {
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+	left: top;
+	top: 0;
+	-webkit-transition: 1.5s;
+	   -moz-transition: 1.5s;
+	    -ms-transition: 1.5s;
+	     -o-transition: 1.5s;
+	        transition: 1.5s;
+}
+.itemList li:hover figure img {
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+.itemList li .name,
+.itemList li .title,
+.itemList li .date {
+	margin-bottom: 3%;
+}
+.itemList li .price,
+.itemList li .title {
+	font-weight: bold;
+	font-size: 1.166em;
+	font-family: futura,Century Gothic;
+}
+
+.moreLink {
+	text-align: right;
+}
+
+.newsList dt {
+	font-weight: bold;
+}
+.newsList dt,
+.newsList dd {
+	padding: 0 0 8px 0;
+	margin-bottom: 8px;
+}
+.newsList dd {
+	padding-left: 8em;
+	border-bottom: 1px dotted #ccc;
+}
+/* footer */
+#footer {
+    padding: 1% 0 5px 0;
+    background-color: #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+.foot
+{
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	clear: both;
+}
+.foot > section {
+	width: 25%;
+	float: left;
+	padding: 0 0 1% 0;
+	margin-bottom: 2%;
+}
+.foot h3 {
+	font-size: 1.166em;
+	color: #111;
+	margin-bottom: 1em;
+}
+.foot ul
+{
+	padding-left: 0.5em;
+}
+
+.foot li
+{
+	margin-bottom: 1.5%;
+}
+.foot li a
+{
+	color: #555;
+}
+.foot li a:hover
+{
+	color: #111;
+}
+.copyright
+{	
+	clear: both;
+	text-align: right;
+	color: #000;
+}
+
+.guidance {
+    text-align: center;
+    margin: 0px 0px 30px;
+}
+
+@media only screen and (max-width: 768px) {
+	#main h2 {
+	    margin-bottom: 2%;
+	    font-size: .9em;
+	    padding: 2%;
+	    color: #fff;
+	}
+	.guidance {
+	    font-size: 15px;
+	    padding: 15px;
+	    margin: 0px 0px 10px;
+	}
+	#footer {
+	    font-size: 12.5px;
+	}
+}
