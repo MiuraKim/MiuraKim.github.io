@@ -54,8 +54,23 @@ a:hover{
 	position:absolute;
 	width:66.25%;
 	right:7%;
-	bottom:5%;
+	bottom:7%;
 }
+
+/*#cart_03
+----------------------------------*/
+
+.cart_03{
+	position:relative;
+}
+
+.cart_03 .btn_03{
+	position:absolute;
+	width:66.25%;
+	right:7%;
+	bottom:14%;
+}
+
 
 
 
