@@ -1,2 +1,0 @@
-# MiuraKim.github.io
-test
