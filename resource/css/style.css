@@ -27,7 +27,7 @@ a:hover{
 }
 
 /* adding navbar
-----------------------------------*/
+----------------------------------
 
 ul {
 	list-style-type: none;
@@ -49,10 +49,11 @@ li a {
 	text-decoration: none;
   }
   
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 (black) on hover 
 li a:hover {
 	  background-color: #146c53;
-	}
+	}*/
+	
 
 /*#cart_01 
 ----------------------------------*/

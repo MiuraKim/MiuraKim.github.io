@@ -8,6 +8,8 @@
 <meta name="description" content="">
 <title>loracle</title>
 <link href="resource/css/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="2019nav_style.css" rel="stylesheet" type="test/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 
 <script type="text/javascript" async="" src="resource/js/analytics.js"></script>
 
@@ -16,42 +18,71 @@
 
 </head>
 <body>
-<div id="wrapper">
 <style>
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #0b3d2f;
+nav{
+    display: flex;
+    position: fixed;
+    max-width: 720px;
+    width: 100%;
+    background-color: #0b3d2f;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
 }
 
-li {
-  float: right;
+.logo{
+  color: aliceblue;
+  width: 20%
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+.logo a{
+  color: aliceblue;
   text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-	background-color: #146c53;
-  }
+.nav-pc{
+    color: aliceblue;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    width: 60%;
+}
+.nav-pc li{
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.nav-pc li:hover{
+  color: #599c89;
+}
+
+.nav-pc a{
+  display:block;
+  color:aliceblue;
+  text-decoration: none;
+  letter-spacing: 3px;
+  padding:0px;
+}
+
+
+
 </style>
+<div id="wrapper">
 
   <!--adding navbar-->
-  <ul>
-      <li><a href="#home">首頁</a></li>
+  <nav>
+    <h4 class="logo"><a href="#home"> L'ORACLE</a></h4>
+    <ul class="nav-pc">
       <li><a href="#quality">品質堅持</a></li>
       <li><a href="#ingredients">植萃成分</a></li>
       <li><a href="#how">使用方法</a></li>
       <li><a href="#q_a">常見問題</a></li>
     </ul>
+  </nav>
 
 	<div><!--img_a-->
       <h1><img src="resource/img/img_a_01_new05.jpg" alt="" id="home"></h1>
